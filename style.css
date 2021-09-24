@@ -1,0 +1,169 @@
+/* Estilo global */
+* {
+    margin: 10px;
+    padding: 0;
+
+}
+
+body{
+    background: rgb(236, 231, 231);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.col {
+    justify-content: center;
+}
+
+.link {
+    width: 100px;
+    padding: 8px 12px;
+    background: blue;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+/* Header */
+.card{
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+}
+.card img{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    float: right;
+    border-radius: 25px;
+}
+
+.card .col-1 {
+    width: 150%;
+    background: white;
+}
+
+/* Informacion y conocimientos */
+.one{
+    width: 90%;
+    height: 50%;
+    background: white;
+    border-radius: 25px;
+}
+/* Skill bars*/
+.skill{
+    background-color: rgb(223, 209, 209);
+    display: flex;
+    border-radius: 20px;
+    
+}
+.skills{
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.html{
+    width: 70%;
+    background-color: blue;
+}
+
+.css{
+    width: 60%;
+    background-color: blue;
+}
+
+.js{
+    width: 50%;
+    background-color: blue;
+}
+
+.two{
+    width: 112% ;
+    background: white;
+    border-radius: 25px;
+    position: relative;
+    right: 70px;
+}
+
+.two img{
+    height: 315px;
+    border-radius: 10px;
+}
+
+.three{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    bottom: 355px;
+    background: white;
+    border-radius: 25px;
+}
+
+.three img{
+    height: 280px;
+    border-radius: 10px;
+}
+
+.four{
+    width: 112%;
+    height: 75%;
+    background: white;
+    border-radius: 25px;
+    position: relative;
+    right: 70px;
+    bottom: 30px;
+}
+
+.four img{
+    height: 240px;
+    border-radius: 10px;
+}
+.five{
+    width: 209%;
+    height: 70%;
+    background: white;
+    border-radius: 25px;
+    position: relative;
+    bottom: 360px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, auto));
+    grid-gap: 50px;
+}
+.icon-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+/*Proyectos*/
+.proyectos{
+    margin-top: auto;
+    position: relative;
+    bottom: 370px;
+}
+.proyectos .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+.proyectos .grid-box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.062);
+    position: relative;
+}
+.proyectos .grid-box img {
+    width: 320px;
+    height: 180px;
+    border-radius: 25px;
+}
+
+
+
